@@ -351,6 +351,18 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+#services .service-expanded {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+#services .service-desc ul {
+  list-style-type: disc;
+  text-align: left; 
+}
+#services .nested-ul {
+  padding-left: 20px;
+}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;

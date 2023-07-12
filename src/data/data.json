@@ -5,6 +5,8 @@
   },
   "About": {
     "paragraph": "Looking to improve your business operations but not sure where to turn? Need help planning or executing your next project? Let us guide you. Any organization can move forward with small incremental changes but building for the future in today’s rapidly evolving environment means taking bold chances and making insightful decisions. Our staff has decades of combined experience. Let our experts guide you to achieving the best ROI from your investment in the Microsoft 365 platform.",
+    "paragraph2": "As one of the fastest growing and most robust collaboration platforms in the world, Microsoft 365 offers a range of apps and tools that can help streamline your business operations and communication.",
+    "paragraph3": "Planning and having a clear vision for the platform is vital to being successful with Microsoft 365. Let our experts guide and support you during that process.",
     "Why": [
       "Assessments",
       "Design",
@@ -22,83 +24,73 @@
       "Dynamics 365"
     ]
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-briefcase",
+      "name": "Microsoft 365 for Small Business Owners",
+      "text": "This class is designed to help small business owners understand the features and capabilities of the Microsoft 365 platform, and put those tools to use for their business. Business owners will gain a great understanding of how the system works and how to leverage those tools to benefit their business.",
+      "moreInfoTitle": "Class Outline",
+      "moreInfoData1": [
+        {
+          "title": "Managing Your Tenant",
+          "subPoints": [
+            "Licensing Options",
+            "Connecting Your Domain Name",
+            "Creating and Managing Users"
+          ]
+        },
+        {
+          "title": "Introduction to the Microsoft 365 Apps",
+          "subPoints": [
+            "OneDrive",
+            "SharePoint",
+            "Exchange",
+            "Teams",
+            "Planner",
+            "To-Do",
+            "Bookings",
+            "Sway",
+            "Stream",
+            "Microsoft Forms",
+            "Whiteboard",
+            "Power Automate (Flow)",
+            "Power Apps"
+          ]
+        },
+        {
+          "title": "Working with SharePoint Lists and Libraries",
+          "subPoints": [
+            "Document Management Tools",
+            "SharePoint Lists vs Microsoft 365 Apps",
+            "Effectively Using Metadata",
+            "Building Views",
+            "Creating SharePoint Pages to Drive Engagement"
+          ]
+        },
+        {
+          "title": "Effective Communication Using Microsoft Teams",
+          "subPoints": [
+            "Teams Chat",
+            "Team Channels",
+            "Working with Channel Apps",
+            "Audio and Video Calling"
+          ]
+        },
+        {
+          "title": "Business Process Automation with Microsoft Power Automate (Flow)",
+          "subPoints": []
+        }
+      ]
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-windows",
+      "name": "Microsoft 365 For Power Users",
+      "text": "This class is designed for Power Users who will be creating SharePoint sites, designing and implementing business processes, and doing day to day management of the Microsoft 365 environment. This class is for those students who already have a good foundational knowledge of Microsoft 365."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-users",
+      "name": "Microsoft 365 for End Users",
+      "text": "This introductory class offers workers a quick ramp up to being skilled at SharePoint and other Microsoft 365 tools. This is the perfect class for those wanting to get a great foundational knowledge of SharePoint and Microsoft 365"
     }
   ],
   "Testimonials": [
