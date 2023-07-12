@@ -7,4 +7,4 @@ This is a ReactJS website created for the 365 Collective.
 
 ## Credits
 
-##### Luke Cutting
+##### <a href="https://lukecutting.com/">Luke Cutting</a> 
