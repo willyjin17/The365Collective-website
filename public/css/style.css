@@ -310,7 +310,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-  padding: 100px 0;
+  padding: 100px 100px 0px 100px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
 }
@@ -361,6 +361,36 @@ header .intro-text {
 }
 #services .nested-ul {
   padding-left: 20px;
+}
+#services .btn-custom {
+  margin: 20px 0;
+  background: transparent;
+  border: 2px solid #fff;
+  margin-bottom: 50px;
+}
+#services .btn-custom:hover {
+  color: #1f386e;
+  background: #fff;
+}
+
+@keyframes slideDown {
+  0% { max-height: 0; opacity: 0; }
+  100% { max-height: 112vh; opacity: 1; }
+}
+
+@keyframes slideUp {
+  0% { max-height: 112vh; opacity: 1; }
+  100% { max-height: 0; opacity: 0; }
+}
+
+#services .slide-down {
+  animation: slideDown 0.5s forwards;
+  overflow: hidden;
+}
+
+#services .slide-up {
+  animation: slideUp 0.5s forwards;
+  overflow: hidden;
 }
 
 /* Portfolio Section */

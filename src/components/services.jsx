@@ -1,8 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 export const Services = (props) => {
   const [expandedService, setExpandedService] = useState(null);
   const [hoveredService, setHoveredService] = useState(null);
+  const [animation, setAnimation] = useState('');
+  const prevExpandedService = useRef();
+
+  useEffect(() => {
+    if (prevExpandedService.current != null && expandedService === null) {
+      setAnimation('slide-up');
+    } else if (expandedService !== null) {
+      setAnimation('slide-down');
+    }
+    prevExpandedService.current = expandedService;
+  }, [expandedService]);
 
   const handleClick = (i) => {
     if (expandedService === i) {
@@ -18,7 +29,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Classes</h2>
           <p>
-            We offer a wide range of classes for our clients. ...
+          We offer a wide range of classes for our clients. From general end user training to more in depth classes for administrators. We even offer class customization to ensure that your users are getting exactly what they need to be successful.
           </p>
         </div>
         <div className="row">
@@ -38,10 +49,13 @@ export const Services = (props) => {
 
                     {expandedService === i && 
                       <>
+                      <div className={animation}>
+                        <p>{d.description}</p>
+                        <p>{d.italics}</p>
                         <h3>{d.moreInfoTitle}</h3>
                         <ul style={{ textAlign: 'left' }}>
-                          {d.moreInfoData1
-                            ? d.moreInfoData1.map((info, i) => (
+                          {d.moreInfoData
+                            ? d.moreInfoData.map((info, i) => (
                               <li key={`${info.title}-${i}`}>
                                 {info.title}
                                 {info.subPoints && info.subPoints.length > 0 && 
@@ -55,6 +69,7 @@ export const Services = (props) => {
                             ))
                             : null}
                         </ul>
+                      </div>
                       </>
                     }
 
@@ -63,6 +78,9 @@ export const Services = (props) => {
               ))
             : "loading"}
         </div>
+        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=u13YV2_AvUW5QED5LfvlC46KV7_Kay9AmOEqal6zMd9URUhQMUYzMlpWOFVFQVVOUldYUzRNQkFEWC4u" className="btn btn-custom btn-lg" target="_blank" rel="noreferrer">
+          Contact Client Services
+        </a>
       </div>
     </div>
   );

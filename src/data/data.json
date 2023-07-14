@@ -29,8 +29,10 @@
       "icon": "fa fa-briefcase",
       "name": "Microsoft 365 for Small Business Owners",
       "text": "This class is designed to help small business owners understand the features and capabilities of the Microsoft 365 platform, and put those tools to use for their business. Business owners will gain a great understanding of how the system works and how to leverage those tools to benefit their business.",
+      "description": "In this class you learn about all of the tools available to you and your business and how to best leverage those tools. Clients will receive lectures on the biggest topics, live demos by the instructor as well as hands on labs during class.",
+      "italics": "This class also includes a 1 hour follow up call with a member of our Client Services team after class. During this call you can discuss your current needs and get guidance on your Microsoft 365 setup, design, or operations.",
       "moreInfoTitle": "Class Outline",
-      "moreInfoData1": [
+      "moreInfoData": [
         {
           "title": "Managing Your Tenant",
           "subPoints": [
@@ -85,12 +87,47 @@
     {
       "icon": "fa fa-windows",
       "name": "Microsoft 365 For Power Users",
-      "text": "This class is designed for Power Users who will be creating SharePoint sites, designing and implementing business processes, and doing day to day management of the Microsoft 365 environment. This class is for those students who already have a good foundational knowledge of Microsoft 365."
+      "text": "This class is designed for Power Users who will be creating SharePoint sites, designing and implementing business processes, and doing day to day management of the Microsoft 365 environment. This class is for those students who already have a good foundational knowledge of Microsoft 365.",
+      "description": "In this class you learn about all of the tools available to you and your business and how to best leverage those tools. Clients will receive lectures on the biggest topics, live demos by the instructor as well as hands on labs during class.",
+      "moreInfoTitle": "Class Outline",
+      "moreInfoData": [
+        {
+          "title": "Introduction to Microsoft 365"
+        },
+        {
+          "title": "Working with SharePoint Lists"
+        },
+        {
+          "title": "Managing Documents in SharePoint Libraries"
+        },
+        {
+          "title": "Tracking Tasks and Projects with Planner"
+        },
+        {
+          "title": "Communicating Effectively with Teams"
+        },
+        {
+          "title": "Creating Workflows with Power Automate"
+        }
+      ]
     },
     {
       "icon": "fa fa-users",
       "name": "Microsoft 365 for End Users",
-      "text": "This introductory class offers workers a quick ramp up to being skilled at SharePoint and other Microsoft 365 tools. This is the perfect class for those wanting to get a great foundational knowledge of SharePoint and Microsoft 365"
+      "text": "This introductory class offers workers a quick ramp up to being skilled at SharePoint and other Microsoft 365 tools. This is the perfect class for those wanting to get a great foundational knowledge of SharePoint and Microsoft 365",
+      "description": "This class is designed for those users who are new to the Microsoft 365 platform or those who are looking to increase their base knowledge of the system. The main focus of this class is how SharePoint works as the backbone of the Microsoft 365 platform. Users will gain knowledge on working with documents in SharePoint libraries and how to work with data stored in SharePoint lists.",
+      "moreInfoTitle": "Class Outline",
+      "moreInfoData": [
+        {
+          "title": "Introduction to Microsoft 365"
+        },
+        {
+          "title": "Working with Data in SharePoint Lists"
+        },
+        {
+          "title": "Managing Documents in SharePoint Libraries"
+        }
+      ]
     }
   ],
   "Testimonials": [
