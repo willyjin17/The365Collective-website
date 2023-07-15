@@ -165,32 +165,30 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Scott Clark",
+      "job": "CEO & Founder"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/02.png",
+      "name": "Luke Cutting",
+      "job": "Software Engineer"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Sean Mahoney",
+      "job": ""
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Rehan Parkar",
+      "job": ""
     }
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1-833-827-2987",
     "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "linkedin": "https://www.linkedin.com/company/the365collective/"
   },
   "Features": [
     {
