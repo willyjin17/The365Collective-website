@@ -7,6 +7,9 @@
     "paragraph": "Looking to improve your business operations but not sure where to turn? Need help planning or executing your next project? Let us guide you. Any organization can move forward with small incremental changes but building for the future in today’s rapidly evolving environment means taking bold chances and making insightful decisions. Our staff has decades of combined experience. Let our experts guide you to achieving the best ROI from your investment in the Microsoft 365 platform.",
     "paragraph2": "As one of the fastest growing and most robust collaboration platforms in the world, Microsoft 365 offers a range of apps and tools that can help streamline your business operations and communication.",
     "paragraph3": "Planning and having a clear vision for the platform is vital to being successful with Microsoft 365. Let our experts guide and support you during that process.",
+    "paragraph4": "With years of experience, our staff has the capabilities and expertise to take your business to the next level. We combine our insights and skills to transform your processes and strategies, and in turn, your company. We’re proud to help shape and improve how our clients structure and manage their business.",
+    "paragraph5": "We offer a range of classes designed to help get your users up to speed on topics that will help them preform at their highest level in the workplace.",
+    "paragraph6": "If you prefer we can also design and custom tailor classes specifically for your organization that can be delivered in person or in a live online training session.",
     "Why": [
       "Assessments",
       "Design",
@@ -132,35 +135,38 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "This team is extremely patient and highly skilled. If you need SharePoint or any Microsoft 365 work done, this is who you want on your side",
       "name": "Johnathan Doe"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "img": "img/testimonials/01.jpg",
+      "text": "Highly recommend Scott and his team, they are extremely knowledgeable for all things related to Microsoft Teams and were a big help to our company. Thank you and we will definitely keep you in mind for future projects.",
       "name": "John Doe"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "Scott and his team are absolutely wonderful! Timely responses, flexible to changing demands, always willing to help and go the extra mile.",
       "name": "Johnathan Doe"
+    },
+    
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "Scott and his team have been great to work with! They are great communicators and very knowledgeable about SharePoint. They guided us through a successful transition from an intranet to SharePoint, making sure that the platform is designed to meet our goals and needs. Additionally, they trained our staff in an easy-to-understand manner so that it has been a smooth transition! We will definitely use Scott and his team for additional work in the future. I highly recommend!",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "Scott and his team are some of the best consultants we've found. They are so easy to work with, fast to respond with questions, and always ready to help. They helped us with licensing questions, a complicated migration from G-Suite, ongoing engineering work, SharePoint implementations, Power Apps development, training for our employees, and more. Can't thank you enough Scott!",
+      "name": "John Doe"
+    },
+    
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "Scott and his team is very talented, knowledgeable and professional both as a subject matter expect and in-person trainer. We initially hired Scott to just create an SoW for the training program but based on further conversations and his ability to bring more color to the program hired him to actually present the whole program to our client. Our client was super happy and pleased with Scott's performance and knowledge. Supper happy to work with Scott again and recommend him to our network.",
+      "name": "John Doe"
     }
+   
   ],
   "Team": [
     {

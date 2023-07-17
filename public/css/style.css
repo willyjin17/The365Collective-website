@@ -450,7 +450,7 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-  padding: 100px 0;
+  padding: 100px 0px 200px 0px;
   background: #f6f6f6;
 }
 #testimonials i {
@@ -461,6 +461,7 @@ header .intro-text {
 .testimonial {
   position: relative;
   padding: 20px;
+  height: 180px;
 }
 .testimonial-image {
   float: left;
@@ -490,7 +491,7 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-  padding: 100px 0;
+  padding: 150px 0;
 }
 #team h4 {
   margin: 5px 0;

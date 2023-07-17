@@ -2,6 +2,7 @@ import React from "react";
 
 export const About = (props) => {
   return (
+    <>
     <div id="about">
       <div className="container">
         <div className="row">
@@ -21,8 +22,8 @@ export const About = (props) => {
                   <ul>
                     {props.data
                       ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
+                        <li key={`${d}-${i}`}>{d}</li>
+                      ))
                       : "loading"}
                   </ul>
                 </div>
@@ -30,8 +31,8 @@ export const About = (props) => {
                   <ul>
                     {props.data
                       ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
+                        <li key={`${d}-${i}`}> {d}</li>
+                      ))
                       : "loading"}
                   </ul>
                 </div>
@@ -41,5 +42,24 @@ export const About = (props) => {
         </div>
       </div>
     </div>
+    <div id="about">
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12 col-md-6">
+              <div className="about-text">
+                <h2>Learning and Development</h2>
+                <p>&emsp;{props.data ? props.data.paragraph4 : "loading..."}</p>
+                <p>&emsp;{props.data ? props.data.paragraph5 : "loading..."}</p>
+                <p>&emsp;{props.data ? props.data.paragraph6 : "loading..."}</p>
+              </div>
+            </div>
+            <div className="col-xs-12 col-md-6">
+              {" "}
+              <img src="img/intro-bg.jpg" className="img-responsive" alt="" />{" "}
+            </div>
+          </div>
+        </div>
+      </div>
+      </>
   );
 };
