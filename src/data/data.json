@@ -171,7 +171,7 @@
     {
       "img": "img/team/02.png",
       "name": "Luke Cutting",
-      "job": "Software Engineer"
+      "job": "Front-End Developer"
     },
     {
       "img": "img/team/03.jpg",
@@ -187,7 +187,7 @@
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1-833-827-2987",
-    "email": "info@company.com",
+    "email": "Consultants@the365collective.com",
     "linkedin": "https://www.linkedin.com/company/the365collective/"
   },
   "Features": [

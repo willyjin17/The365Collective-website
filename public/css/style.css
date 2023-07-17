@@ -549,6 +549,8 @@ header .intro-text {
 }
 #contact .btn-custom {
   margin: 30px 0;
+  padding-left: 10vw;
+  padding-right: 10vw;
   background: transparent;
   border: 2px solid #fff;
 }
@@ -631,6 +633,9 @@ label {
 #contact .social i.fa:hover {
   color: #608dfd;
   background: #fff;
+}
+#contact .email-link {
+  color: rgba(255, 255, 255, 0.75);
 }
 /* Footer Section*/
 #footer {

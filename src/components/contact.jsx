@@ -38,7 +38,9 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                <a href="mailto:Consulting@the365collective.com" class="email-link">
+                  {props.data ? props.data.email : "loading"}
+                </a>
               </p>
             </div>
           </div>
