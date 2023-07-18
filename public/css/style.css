@@ -214,7 +214,7 @@ a:focus,
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 100vh;
+  height: 80vh;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -681,6 +681,9 @@ label {
     font-weight: 400;
     width: 220% !important;
     height: 100% !important;
+}
+.intro{
+  width: 115% !important;
 }
 
 }
