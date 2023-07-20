@@ -211,7 +211,6 @@ a:focus,
   height: 80vh;
   position: relative;
 }
-
 .intro .video-background {
   position: absolute;
   top: 0;
@@ -220,7 +219,6 @@ a:focus,
   height: 100%;
   object-fit: cover;
 }
-
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
   position: relative;
