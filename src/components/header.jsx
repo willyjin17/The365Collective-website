@@ -4,6 +4,13 @@ export const Header = (props) => {
   return (
     <header id="header">
       <div className="intro">
+        <video
+          className="video-background"
+          autoPlay
+          loop
+          muted
+          src={props.data ? props.data.video : "Loading"}
+        />
         <div className="overlay">
           <div className="container">
             <div className="row">

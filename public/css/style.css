@@ -208,16 +208,22 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/Windows-Background.jpg) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
   height: 80vh;
+  position: relative;
 }
+
+.intro .video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
+  position: relative;
   height: 100%;
 }
 .intro h1 {
