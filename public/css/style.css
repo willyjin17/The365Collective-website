@@ -392,11 +392,11 @@ header .intro-text {
 
 @keyframes slideDown {
   0% { max-height: 0; opacity: 0; }
-  100% { max-height: 112vh; opacity: 1; }
+  100% { max-height: 512vh; opacity: 1; }
 }
 
 @keyframes slideUp {
-  0% { max-height: 112vh; opacity: 1; }
+  0% { max-height: 512vh; opacity: 1; }
   100% { max-height: 0; opacity: 0; }
 }
 
@@ -684,6 +684,9 @@ label {
 }
 .intro{
   width: 115% !important;
+}
+#services .slide-down {
+  margin-bottom: 50vh;
 }
 
 }
