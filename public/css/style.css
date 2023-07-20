@@ -11,7 +11,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -81,7 +81,7 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
@@ -221,7 +221,7 @@ a:focus,
   height: 100%;
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   color: #fff;
   font-size: 82px;
   font-weight: 700;
