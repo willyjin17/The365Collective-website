@@ -471,7 +471,6 @@ header .intro-text {
 }
 .testimonial {
   position: relative;
-  padding: 20px;
   height: 180px;
 }
 .testimonial-image {
@@ -491,8 +490,8 @@ header .intro-text {
 }
 .testimonial-content p {
   margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic bold;
+  font-size: 18px;
+  font-style: italic;
 }
 .testimonial-meta {
   margin-top: 10px;
