@@ -32,7 +32,6 @@
       "icon": "fa fa-briefcase",
       "name": "Microsoft 365 for Small Business Owners",
       "text": "This class is designed to help small business owners understand the features and capabilities of the Microsoft 365 platform, and put those tools to use for their business. Business owners will gain a great understanding of how the system works and how to leverage those tools to benefit their business.",
-      "description": "In this class you learn about all of the tools available to you and your business and how to best leverage those tools. Clients will receive lectures on the biggest topics, live demos by the instructor as well as hands on labs during class.",
       "italics": "This class also includes a 1 hour follow up call with a member of our Client Services team after class. During this call you can discuss your current needs and get guidance on your Microsoft 365 setup, design, or operations.",
       "moreInfoTitle": "Class Outline",
       "moreInfoData": [
@@ -46,21 +45,7 @@
         },
         {
           "title": "Introduction to the Microsoft 365 Apps",
-          "subPoints": [
-            "OneDrive",
-            "SharePoint",
-            "Exchange",
-            "Teams",
-            "Planner",
-            "To-Do",
-            "Bookings",
-            "Sway",
-            "Stream",
-            "Microsoft Forms",
-            "Whiteboard",
-            "Power Automate (Flow)",
-            "Power Apps"
-          ]
+          "subPoints": []
         },
         {
           "title": "Working with SharePoint Lists and Libraries",
@@ -75,10 +60,7 @@
         {
           "title": "Effective Communication Using Microsoft Teams",
           "subPoints": [
-            "Teams Chat",
-            "Team Channels",
-            "Working with Channel Apps",
-            "Audio and Video Calling"
+            
           ]
         },
         {
