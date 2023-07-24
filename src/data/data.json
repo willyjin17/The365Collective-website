@@ -8,24 +8,25 @@
     "paragraph": "Our mission is to empower businesses with the full potential of Microsoft 365, delivering unparalleled IT consulting services from out of the box deployments to fully bespoke solutions. As a dedicated team of experts, we are committed to elevating your organization's productivity, efficiency, and success across the entire Microsoft 365 platform.",
     "paragraph2": "Our primary focus is on customer satisfaction, understanding your unique needs, and tailoring solutions that align perfectly with your business objectives. We strive to become your trusted partner, offering personalized support and innovative strategies that drive high ROI in Microsoft 365. By pairing consulting services with Learning & Development we ensure that our clients not only have the systems in place to help them succeed, but the knowledge to put those systems to use effectively and efficiently.",
     "paragraph3": "Through continuous collaboration, industry-leading expertise, and a passion for technological excellence, we aim to unlock the true value of Microsoft 365 for your organization. Our mission is to empower you with the tools and knowledge to optimize your operations, foster growth, and gain a competitive edge in the ever-evolving digital landscape.",
-    "paragraph4": "With years of experience, our staff has the capabilities and expertise to take your business to the next level. We combine our insights and skills to transform your processes and strategies, and in turn, your company. We’re proud to help shape and improve how our clients structure and manage their business.",
-    "paragraph5": "We offer a range of classes designed to help get your users up to speed on topics that will help them preform at their highest level in the workplace.",
-    "paragraph6": "If you prefer we can also design and custom tailor classes specifically for your organization that can be delivered in person or in a live online training session.",
+    "paragraph4": "We firmly believe that the key to our clients' success lies not only in the development and implementation of effective solutions but also in ensuring that their users possess the necessary knowledge to utilize these systems proficiently in their daily workflows. Understanding that building the solution is only one part of the equation, we go the extra mile by offering comprehensive training programs to equip our clients' frontline workers with the technical expertise they need to maximize the benefits of our solutions.",
+    "paragraph5": "With nearly two decades of expertise in technical training and instructional design, our dedicated team possesses the skills and knowledge to create tailored training programs that precisely cater to our clients' unique requirements. We work closely with our clients to identify specific user needs and then develop training modules that effectively communicate the essential technical knowledge, empowering every user to leverage the technology solutions to their fullest potential in their day-to-day operations.",
     "Why": [
       "Assessments",
       "Guidance on Licensing",
-      "Migration",
-      "Management",
-      "Document Management Planning",
-      "Analytics using Power BI"
+      "Migration to Microsoft 365 from Google",
+      "SharePoint Design, Deployment and Management",
+      "Document Management Planning & Design",
+      "Business Intelligence Analytics with Power BI",
+      "Security Planning and Deployment"
     ],
     "Why2": [
-      "Security Planning",
       "Business Process Automation",
-      "Enabling Successful Remote Work",
-      "Microsoft Teams Deployment",
+      "Enabling Successful Remote Workers",
+      "Microsoft Teams, Teams Rooms, & Telephony Deployments",
       "Project Management Solutions",
-      "Dynamics 365"
+      "Dynamics 365 Design & Deployment",
+      "Enterprise Grade Custom Applications with Power Platform and Dataverse",
+      "Bespoke Teams and SharePoint Applications"
     ]
   },
   "Services": [
@@ -155,22 +156,27 @@
     {
       "img": "img/team/01.jpg",
       "name": "Scott Clark",
-      "job": "CEO & Founder"
+      "job": "Microsoft 365 Architect, Lead Consultant, CEO"
     },
     {
       "img": "img/team/02.png",
       "name": "Luke Cutting",
-      "job": "Front-End Developer"
+      "job": "App Developer & AI Technical Lead"
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "img/team/03.png",
       "name": "Sean Mahoney",
-      "job": ""
+      "job": "Power BI & Dataverse Developer"
     },
     {
       "img": "img/team/04.jpg",
       "name": "Rehan Parkar",
-      "job": ""
+      "job": "Power Platform & Dynamics 365 Developer"
+    },
+    {
+      "img": "img/team/01.jpg",
+      "name": "Jennifer Wert",
+      "job": "Chief of Staff & Client Services Specialist"
     }
   ],
   "Contact": {

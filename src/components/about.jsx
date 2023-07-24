@@ -10,7 +10,7 @@ export const About = (props) => {
             {" "}
             <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="col-xs-12 col-md-6 text">
             <div className="about-text">
               <h2>How We Can Help</h2>
               <p>&emsp;{props.data ? props.data.paragraph : "loading..."}</p>
@@ -45,12 +45,11 @@ export const About = (props) => {
     <div id="about">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-md-6">
+            <div className="col-xs-12 col-md-6 text">
               <div className="about-text">
                 <h2>Learning and Development</h2>
                 <p>&emsp;{props.data ? props.data.paragraph4 : "loading..."}</p>
                 <p>&emsp;{props.data ? props.data.paragraph5 : "loading..."}</p>
-                <p>&emsp;{props.data ? props.data.paragraph6 : "loading..."}</p>
               </div>
             </div>
             <div className="col-xs-12 col-md-6">
