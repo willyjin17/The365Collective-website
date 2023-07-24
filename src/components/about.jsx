@@ -12,11 +12,11 @@ export const About = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>Move Your Business Forward</h2>
+              <h2>How We Can Help</h2>
               <p>&emsp;{props.data ? props.data.paragraph : "loading..."}</p>
               <p>&emsp;{props.data ? props.data.paragraph2 : "loading..."}</p>
               <p>&emsp;{props.data ? props.data.paragraph3 : "loading..."}</p>
-              <h3>Microsoft 365 Consulting Services</h3>
+              <h3>Our Services</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
