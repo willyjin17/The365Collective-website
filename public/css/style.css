@@ -520,7 +520,7 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-  padding: 10px 0;
+  padding: 50px 0;
 }
 #team h4 {
   margin: 5px 0;
@@ -709,6 +709,25 @@ label {
 }
 #services .slide-down {
   margin-bottom: 50vh;
+}
+#team .col-md-3 {
+  width: 100%;
+}
+.testimonial {
+  height: auto;
+  margin-bottom: 80px;
+}
+#testimonials{
+  padding-bottom: 10px;
+}
+#about .img-responsive{
+  display: none;
+}
+#about .col-md-6{
+  width: 100%;
+}
+#contact .btn-custom {
+  width: 100%;
 }
 
 }
