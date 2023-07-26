@@ -334,6 +334,9 @@ header .intro-text {
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
+.img-responsive-mobile {
+  display: none;
+}
 #about p {
   line-height: 24px;
   margin: 30px 0;
@@ -704,6 +707,15 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  .img-responsive-mobile {
+    display: flex;
+    width: 115%;
+    background: #fff;
+    border-right: 0;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
   }
 }
 

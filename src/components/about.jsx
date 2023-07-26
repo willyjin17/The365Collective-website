@@ -42,6 +42,7 @@ export const About = (props) => {
         </div>
       </div>
     </div>
+    <img src="img/intro-bg1.jpg" className="img-responsive-mobile" alt=""/>
     <div id="about">
         <div className="container">
           <div className="row">
