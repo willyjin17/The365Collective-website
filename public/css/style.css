@@ -320,6 +320,20 @@ header .intro-text {
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
+#about .img-responsive-1{
+  width: 420px;
+  margin-top: 45px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+#about .img-responsive-2{
+  width: 420px;
+  margin-top: -30px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
 #about p {
   line-height: 24px;
   margin: 30px 0;
@@ -720,7 +734,10 @@ label {
 #testimonials{
   padding-bottom: 10px;
 }
-#about .img-responsive{
+#about .img-responsive-1{
+  display: none;
+}
+#about .img-responsive-2{
   display: none;
 }
 #about .col-md-6{
