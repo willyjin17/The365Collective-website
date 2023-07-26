@@ -409,6 +409,7 @@ header .intro-text {
 #services .service-desc ul li {
   margin: 0;
   padding: 0;
+  padding-left: 20px;
   list-style-type: disc !important;
 }
 
