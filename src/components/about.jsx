@@ -43,23 +43,6 @@ export const About = (props) => {
       </div>
     </div>
     <img src="img/intro-bg1.jpg" className="img-responsive-mobile" alt=""/>
-    <div id="about">
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12 col-md-6 text">
-              <div className="about-text">
-                <h2>Learning and Development</h2>
-                <p>&emsp;{props.data ? props.data.paragraph4 : "loading..."}</p>
-                <p>&emsp;{props.data ? props.data.paragraph5 : "loading..."}</p>
-              </div>
-            </div>
-            <div className="col-xs-12 col-md-6">
-              {" "}
-              <img src="img/intro-bg.jpg" className="img-responsive-2" alt="" />{" "}
-            </div>
-          </div>
-        </div>
-      </div>
       </>
   );
 };

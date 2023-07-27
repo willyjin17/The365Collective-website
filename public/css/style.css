@@ -327,7 +327,7 @@ header .intro-text {
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
-#about .img-responsive-2{
+#learning .img-responsive-2{
   width: 420px;
   margin-top: -30px;
   background: #fff;
@@ -354,6 +354,83 @@ header .intro-text {
   width: 60%;
  }
 
+ 
+/* Learning Section */
+
+#learning {
+  padding: 100px 0;
+}
+#learning h3 {
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+#learning h2 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+#learning h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+}
+#learning .about-text li {
+  margin-bottom: 6px;
+  list-style: none;
+  padding: 0;
+}
+#learning .about-text li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #5ca9fb;
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+#learning img {
+  width: 540px;
+  margin-top: 10px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+#learning .img-responsive-1{
+  width: 420px;
+  margin-top: 45px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+#learning .img-responsive-2{
+  width: 420px;
+  margin-top: -30px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+.img-responsive-mobile {
+  display: none;
+}
+#learning p {
+  line-height: 24px;
+  margin: 30px 0;
+}
+#learning .col-lg-6,
+#learning .col-sm-6,
+#learning .col-xs-12 {
+  padding-right: 1em;
+}
+
+#learning .col-md-6{
+  width: 40%;
+}
+#learning .text{
+  width: 60%;
+ }
 
 /* Services Section */
 #services {
@@ -538,7 +615,7 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 #team h4 {
   margin: 5px 0;
@@ -709,6 +786,9 @@ label {
   #about img {
     margin: 50px 0;
   }
+  #learning img {
+    margin: 50px 0;
+  }
   .img-responsive-mobile {
     display: flex;
     width: 115%;
@@ -750,10 +830,13 @@ label {
 #about .img-responsive-1{
   display: none;
 }
-#about .img-responsive-2{
+#learning .img-responsive-2{
   display: none;
 }
 #about .col-md-6{
+  width: 100%;
+}
+#learning .col-md-6{
   width: 100%;
 }
 #contact .btn-custom {
