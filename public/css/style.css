@@ -644,7 +644,7 @@ header .intro-text {
   margin-bottom: 40px;
 }
 #contact .section-title p {
-  font-size: 16px;
+  font-size: 20px;
 }
 #contact h2 {
   color: #fff;
@@ -657,9 +657,13 @@ header .intro-text {
   content: "";
   background: rgba(255, 255, 255, 0.3);
   height: 4px;
-  width: 60px;
+  width: 70px;
   bottom: 0;
   left: 30px;
+}
+
+#contact h2{
+  font-size: 44px;
 }
 #contact h3 {
   color: #fff;
@@ -667,6 +671,7 @@ header .intro-text {
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
+  font-size: 34px;
 }
 #contact form {
   padding-top: 20px;
@@ -679,6 +684,7 @@ header .intro-text {
   margin: 30px 0;
   padding-left: 10vw;
   padding-right: 10vw;
+  width: 90%;
   background: transparent;
   border: 2px solid #fff;
 }
@@ -734,6 +740,7 @@ label {
   color: rgba(255, 255, 255, 1);
   margin-bottom: 10px;
   display: block;
+  font-size: 28px;
 }
 #contact .contact-item i.fa {
   margin-right: 10px;
@@ -766,6 +773,10 @@ label {
 #contact .email-link {
   color: rgba(255, 255, 255, 0.75);
 }
+#contact .contact-item p{
+  font-size: 22px;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
