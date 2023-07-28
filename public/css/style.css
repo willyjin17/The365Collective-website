@@ -435,7 +435,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 100px 0px 100px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #3a47bb 0%, #3776b9 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -459,7 +459,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #3a47bb 0%, #3776b9 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -637,8 +637,9 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+  background: #f6f6f6;
+  /* color: rgba(255, 255, 255, 0.75); */
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -647,7 +648,7 @@ header .intro-text {
   font-size: 20px;
 }
 #contact h2 {
-  color: #fff;
+  /* color: #fff; */
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -655,7 +656,11 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(
+    to right,
+    rgba(99, 114, 255, 0.8) 0%,
+    rgba(92, 169, 251, 0.8) 100%
+  );
   height: 4px;
   width: 70px;
   bottom: 0;
@@ -666,12 +671,13 @@ header .intro-text {
   font-size: 44px;
 }
 #contact h3 {
-  color: #fff;
+  /* color: #fff; */
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
   font-size: 34px;
+  color: rgb(52, 52, 52);
 }
 #contact form {
   padding-top: 20px;
@@ -686,11 +692,14 @@ header .intro-text {
   padding-right: 10vw;
   width: 90%;
   background: transparent;
-  border: 2px solid #fff;
+  /* border: 2px solid #fff; */
+  border: 2px solid gray;
+  color: gray;
 }
 #contact .btn-custom:hover {
-  color: #1f386e;
-  background: #fff;
+  color: white;
+  border: 2px solid black;
+  background: gray;
 }
 label {
   font-size: 12px;
@@ -737,7 +746,7 @@ label {
   margin: 20px 0;
 }
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  /* color: rgba(255, 255, 255, 1); */
   margin-bottom: 10px;
   display: block;
   font-size: 28px;
@@ -760,8 +769,9 @@ label {
   width: 48px;
   height: 48px;
   padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
+  /* border: 2px solid #fff; */
+  border: 2px solid #608dfd;
+  /* color: #fff; */
   border-radius: 50%;
   transition: all 0.3s;
   padding-left: 2rem;
@@ -771,7 +781,8 @@ label {
   background: #fff;
 }
 #contact .email-link {
-  color: rgba(255, 255, 255, 0.75);
+  /* color: rgba(255, 255, 255, 0.75); */
+  color: rgb(119 119 119);
 }
 #contact .contact-item p{
   font-size: 22px;
