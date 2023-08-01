@@ -676,7 +676,7 @@ header .intro-text {
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
-  font-size: 34px;
+  font-size: 38px;
   color: rgb(52, 52, 52);
 }
 #contact form {
@@ -691,15 +691,16 @@ header .intro-text {
   padding-left: 10vw;
   padding-right: 10vw;
   width: 90%;
-  background: transparent;
   /* border: 2px solid #fff; */
-  border: 2px solid gray;
-  color: gray;
+  color: white;
+  border: 2px solid black;
+  background: #3955ba;
 }
 #contact .btn-custom:hover {
   color: white;
   border: 2px solid black;
-  background: gray;
+  background: #5e91c8;
+  ;
 }
 label {
   font-size: 12px;
@@ -750,6 +751,7 @@ label {
   margin-bottom: 10px;
   display: block;
   font-size: 28px;
+  color: rgb(66, 66, 66);
 }
 #contact .contact-item i.fa {
   margin-right: 10px;
